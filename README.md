@@ -2,6 +2,8 @@
 
 This repository contains the infrastructure required to interface with Db2 for IBM i databases. Demo code for example SQL queries is included.
 
+![Article](https://aws.amazon.com/pt/blogs/compute/using-aws-lambda-to-run-external-transactions-on-db2-for-ibm-i)
+
 ## Overview
 
 This architecture provides a generic solution for Db2 interfacing, without any application-specific triggers. It allows us to push Docker images to a repository hosted on ECR and deploy those images to a Lambda function. Lambda can then execute specified queries on a target Db2. Note that the Lambda invocation trigger, the VPC, and Direct Connect are not included in the AWS resources launched in this blog post, but may be necessary depending on your use case. Prerequisites are described the walkthrough.
