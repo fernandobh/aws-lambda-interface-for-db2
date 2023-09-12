@@ -2,7 +2,7 @@
 
 This repository contains the infrastructure required to interface with Db2 for IBM i databases. Demo code for example SQL queries is included.
 
-[Article](https://aws.amazon.com/pt/blogs/compute/using-aws-lambda-to-run-external-transactions-on-db2-for-ibm-i)
+[Article: using-aws-lambda-to-run-external-transactions-on-db2-for-ibm](https://aws.amazon.com/pt/blogs/compute/using-aws-lambda-to-run-external-transactions-on-db2-for-ibm-i)
 
 ## Overview
 
